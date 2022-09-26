@@ -25,7 +25,7 @@ Hacktoberfest
 
 ### Step#6 Commit your changes `git commit -m  "commit message here"`
 
-### Step#7: Push to your fork `git push` and [submit a pull request](/https://github.com/shubham9672/Hacktoberfest2022/compare).
+### Step#7: Push to your fork `git push` and [submit a pull request](https://github.com/shubham9672/Hacktoberfest2022/compare).
                  
 ### Step#8: Pat your self on the back and wait for your pull request to be reviewed and merged.
 
