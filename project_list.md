@@ -48,6 +48,9 @@ Hints:-
 * Desktop Notifier App:- Notify about covid count or anything usefull.
 * Currency Converter 
 * Simple ATM Simulator
-
+* Stock Calculator
+* css template
+* Frisbee
+* clueless first contiributor
 
 If you have any ideas in mind please add it here so that beginners will be benefited.
