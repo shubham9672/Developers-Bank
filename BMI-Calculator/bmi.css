@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+  /* border: 1px solid red; */
+  height: 100vh;
+  text-align: center;
+  background-color: #06283d;
+  color: #fff;
+  /* align-items: center; */
+  padding-top: 2rem;
+  /* border-radius: 2rem; */
+}
+#text1 {
+  border: 1px solid white;
+  padding: 2rem 0;
+  border-radius: 1rem;
+}
+
+#btn {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: blue;
+  color: #fff;
+}
+
+#result {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
