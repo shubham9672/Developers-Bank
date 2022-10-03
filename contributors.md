@@ -5,3 +5,4 @@
 - [Thang To](https://github.com/ThangTo/)
 - [Ifeoluwa Oludare](https://github.com/ifeoluwah21)
 - [Nishant Ola](https://github.com/ola-nishant)
+- [Bagusin](https://github.com/Bagusin)
