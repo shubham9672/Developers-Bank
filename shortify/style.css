@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Peralta&family=Roboto+Condensed&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: "Peralta", cursive;
+}
+
+.header {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header h1 a {
+  text-decoration: none;
+  color: #fbeaff;
+}
+
+.form {
+  margin: 2rem auto;
+  width: 300px;
+  height: 15rem;
+  background-color: #d4e5ed;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__control-input {
+  width: 80%;
+}
+
+label {
+  text-align: center;
+  padding: 1rem;
+  display: block;
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, #845ec2, #4b4453, #b0a8b9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form__control-input input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 1px 1px 3px 1px #ccc;
+}
+
+.form__action {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__action button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px 10px;
+  border: none;
+  box-shadow: 1px 1px 3px 1px #ccc;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-size: 1.5rem;
+  color: #fbeaff;
+  font-family: "Peralta", cursive;
+}
+
+.output {
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.output__card {
+  width: 100%;
+  padding: 1rem;
+  background-color: #d4e5ed;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.output__input-url {
+  width: 100%;
+  position: relative;
+  padding: 1rem 0;
+  overflow: clip;
+}
+
+.output__input-url p {
+  word-break: break-word;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.output__input-url::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.output__output-url {
+  margin: 1rem 0;
+}
+
+.output__output-url p {
+  padding-bottom: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.output__output-url button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px 10px;
+  border: none;
+  box-shadow: 1px 1px 3px 1px #ccc;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-size: 1rem;
+  color: #fbeaff;
+  font-family: "Peralta", cursive;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+}
