@@ -8,7 +8,7 @@
 - [Dhruv Gupta](https://github.com/MR-DHRUV)
 - [Bagusin](https://github.com/Bagusin)
 - [Palak Khandelwal](https://github.com/palaksv)
-
+- [Ankit Goyal](https://github.com/Ankit9126)
 
 
 
