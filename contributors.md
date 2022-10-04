@@ -7,6 +7,7 @@
 - [Nishant Ola](https://github.com/ola-nishant)
 - [Dhruv Gupta](https://github.com/MR-DHRUV)
 - [Bagusin](https://github.com/Bagusin)
+- [Shubham Goyal](https://github.com/ShubhamGoyal7125)
 - [Palak Khandelwal](https://github.com/palaksv)
 
 
