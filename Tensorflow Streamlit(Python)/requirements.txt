@@ -1,0 +1,8 @@
+numpy
+tensorflow==2.10.0
+fastapi==0.84.0
+Pillow
+PyYAML
+uvicorn==0.18.3
+python-multipart==0.0.5
+streamlit==1.10.0 
