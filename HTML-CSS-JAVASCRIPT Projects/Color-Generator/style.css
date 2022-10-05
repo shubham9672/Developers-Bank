@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Peralta', cursive;
   }
 
   li {
@@ -29,11 +30,13 @@
 
   .logo {
     color: rgb(17, 147, 199);
+    font-family: 'Peralta', cursive;
   }
   ul {
     position: relative;
     display: flex;
     justify-content: flex-end;
+    font-family: 'Peralta', cursive;
   }
   #marker {
     position: absolute;
@@ -62,6 +65,15 @@
     align-items: center;
     text-align: center;
     font-size: 1.8rem;
+  }
+
+  .heading{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 3rem;
   }
 
   .container {
