@@ -40,12 +40,12 @@ header:after{
 }
 
 .ml-auto a{
-    color: white !important;
+    color: #FFFFFF !important;
 }
 
 .ml-auto a:hover{
     color: #007aff !important;
-    background: white;
+    background: #FFFFFF;
 }
 
 .bt{
@@ -57,14 +57,14 @@ header:after{
     text-decoration: none;
     display: inline-block;
     border: 1px solid;
-    border-color: white;
+    border-color: #FFFFFF;
     transition: all 2s;
     cursor: pointer;
-    color: white;
+    color: #FFFFFF;
 }
 
 .mytext{
-    color: white;
+    color: #FFFFFF;
     background: transparent;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -75,7 +75,7 @@ header:after{
     display: inline-block;
     position: relative;
     transition: 2s;
-    color: white;
+    color: #FFFFFF;
 }
   
 .bt span:after {
@@ -85,9 +85,10 @@ header:after{
     top: 0;
     right: -20px;
     transition: 2s;
-    color: white;
+    color: #FFFFFF;
 }
   
+
 .bt:hover span {
     padding-right: 25px;
 }
@@ -95,12 +96,12 @@ header:after{
 .bt:hover span:after {
     opacity: 1;
     right: 0;
-    color: white;
+    color: #FFFFFF;
 }
 
 .bt:hover{
     background-color: black;
-    color: white;
+    color: #FFFFFF;
 }
 
 nav{
@@ -138,7 +139,7 @@ nav{
     position: absolute;
     z-index: 30;
     line-height: 4rem;
-    top: calc(50% - 2rem);
+    top: calc(50% - 4rem);
     width: 100%;
     text-align: center;
     font-size: 5rem;
@@ -161,12 +162,12 @@ nav{
 
 .mycard{
     background: black !important;
-    color: white !important;
+    color: #FFFFFF !important;
 }
 
 .btn-mdb-color{
     color: black !important;
-    background: white !important;
+    background: #FFFFFF !important;
 }
 
 .map-container-7 iframe{
@@ -195,7 +196,7 @@ section{
 }
 
 .fa{
-    color: white;
+    color: #FFFFFF;
 }
 
 .fa-linkedin:hover{
@@ -212,7 +213,7 @@ section{
 
 .fa-github:hover{
     background: black;
-    color: white;
+    color: #FFFFFF;
 }
 
 @media(max-width: 600px){
