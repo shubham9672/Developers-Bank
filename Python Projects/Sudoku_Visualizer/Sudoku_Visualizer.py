@@ -24,8 +24,8 @@ grid =[
 		[0, 4, 9, 2, 0, 6, 0, 0, 7]
 	]
 
-font1 = pygame.font.SysFont("comicsans", 40)
-font2 = pygame.font.SysFont("comicsans", 20)
+font1 = pygame.font.SysFont("comicsans", 30)
+font2 = pygame.font.SysFont("comicsans", 22)
 def get_cord(pos):
 	global x
 	x = pos[0]//dif
@@ -45,7 +45,7 @@ def draw():
 		for j in range (9):
 			if grid[i][j]!= 0:
 
-				pygame.draw.rect(screen, (0, 153, 153), (i * dif, j * dif, dif + 1, dif + 1))
+				pygame.draw.rect(screen, (153, 153, 153), (i * dif, j * dif, dif + 1, dif + 1))
 
 				text1 = font1.render(str(grid[i][j]), 1, (0, 0, 0))
 				screen.blit(text1, (i * dif + 15, j * dif + 15))		
@@ -56,7 +56,7 @@ def draw():
 			thick = 1
 		pygame.draw.line(screen, (0, 0, 0), (0, i * dif), (500, i * dif), thick)
 		pygame.draw.line(screen, (0, 0, 0), (i * dif, 0), (i * dif, 500), thick)	
-	
+
 def draw_val(val):
 	text1 = font1.render(str(val), 1, (0, 0, 0))
 	screen.blit(text1, (x * dif + 15, y * dif + 15))
@@ -83,7 +83,7 @@ def valid(m, i, j, val):
 	return True
 
 def solve(grid, i, j):
-	
+
 	while grid[i][j]!= 0:
 		if i<8:
 			i+= 1
@@ -99,7 +99,7 @@ def solve(grid, i, j):
 			global x, y
 			x = i
 			y = j
-			
+
 			screen.fill((255, 255, 255))
 			draw()
 			draw_box()
@@ -109,9 +109,9 @@ def solve(grid, i, j):
 				return True
 			else:
 				grid[i][j]= 0
-			
+
 			screen.fill((255, 255, 255))
-		
+
 			draw()
 			draw_box()
 			pygame.display.update()
@@ -133,7 +133,7 @@ flag2 = 0
 rs = 0
 error = 0
 while run:
-	
+
 	screen.fill((255, 255, 255))
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
@@ -221,7 +221,7 @@ while run:
 			grid[int(x)][int(y)]= 0
 			raise_error2()
 		val = 0
-	
+
 	if error == 1:
 		raise_error1()
 	if rs == 1:
@@ -232,4 +232,4 @@ while run:
 	instruction()
 	pygame.display.update()
 pygame.quit()	
-	
+
