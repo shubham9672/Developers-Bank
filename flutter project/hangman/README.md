@@ -1,6 +1,6 @@
 # hangman
 
-A new Flutter project.
+A Flutter project for android/ios/web.
 
 ## Getting Started
 
