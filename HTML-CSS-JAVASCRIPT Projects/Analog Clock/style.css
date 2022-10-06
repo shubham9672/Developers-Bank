@@ -1,0 +1,67 @@
+body{
+    background: #78938acf;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    height: 30vw;
+    width: 30vw;
+}
+
+
+#analogClock{
+    margin: 3% auto;
+    height: 40vw;
+    width: 40vw;
+    background: url("images/pngegg.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+
+}
+
+#hours, #minutes, #seconds{
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+}
+
+#hours{
+    width: 1.8%;
+    height: 29%;
+    top: 21%;
+    left: 49.62%;
+    
+}
+
+#minutes{
+    width: 1.4%;
+    height: 32%;
+    top: 18%;
+    left: 49.74%;
+    
+}
+#seconds{
+    width: 1%;
+    height: 36%;
+    top: 14%;
+    left: 50%;  
+}
+
+.hr {
+    background-color: #000;
+    display: block;
+    width: 94%;
+    margin: 10% auto 2% auto;
+}
+
+#footer{
+    text-align: center;
+    margin-bottom: 2%;
+}
