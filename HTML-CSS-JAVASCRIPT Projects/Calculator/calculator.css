@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(27, 17, 17);
+}
+h1 {
+  color: aliceblue;
+  font-size: 48px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+  text-align: center;
+  margin-top: 23px;
+}
+table {
+  margin: auto;
+}
+input {
+    background-color: antiquewhite;
+  border-radius: 9px;
+height: 65px;
+width: 456px;
+  font-size: 34px;
+}
+button {
+  border-radius: 20px;
+  font-size: 34px;
+  width: 102px;
+  height: 47px;
+  margin: 6px;
+}
+.calculator{
+    display: inline-block;
+    border: 3px solid rgb(233, 223, 205);
+}
