@@ -1,11 +1,11 @@
-# Hacktoberfest2022
-Hacktoberfest
+# Developers-Bank
+
 
 <img alt="HF2022" src="img/hacktober.png">
 
 <div align="center">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/shubham9672/Hacktoberfest2022?color=yellow)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![GitHub repo size](https://img.shields.io/github/repo-size/shubham9672/Developers-Bank?color=yellow)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 </div>
 <table align="center">
     <thead align="center">
@@ -20,12 +20,12 @@ Hacktoberfest
      </thead>
     <tbody>
          <tr>
-            <td><a href="https://github.com/shubham9672/Hacktoberfest2022"</a>Project</td>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/shubham9672/Hacktoberfest2022?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/shubham9672/Hacktoberfest2022?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/shubham9672/Hacktoberfest2022?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/shubham9672/Hacktoberfest2022?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/shubham9672/Hacktoberfest2022?style=flat&color=critical&logo=github"/></td>
+            <td><a href="https://github.com/shubham9672/Developers-Bank"</a>Project</td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/shubham9672/Developers-Bank?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/shubham9672/Developers-Bank?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/shubham9672/Developers-Bank?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/shubham9672/Developers-Bank?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/shubham9672/Developers-Bank?style=flat&color=critical&logo=github"/></td>
         </tr>
     </tbody>
 </table>
@@ -44,7 +44,7 @@ Hacktoberfest
 <br>
 (Follow me on github - this motivates me to review & merge pull requests quicker.) 
 
-### Step#3: [Fork](https://github.com/shubham9672/Hacktoberfest2022/fork) and clone the repository.
+### Step#3: [Fork](https://github.com/shubham9672/Developers-Bank/fork) and clone the repository.
 
 ### Step#4: Send in your valuable projects/code to this repository in order to complete it. Please make sure you are making a valid contribution to the open source. (You can refer [project list](project_list.md) for ideas)
        
@@ -52,7 +52,7 @@ Hacktoberfest
 
 ### Step#6 Commit your changes `git commit -m  "commit message here"`
 
-### Step#7: Push to your fork `git push` and [submit a pull request](https://github.com/shubham9672/Hacktoberfest2022/compare).
+### Step#7: Push to your fork `git push` and [submit a pull request](https://github.com/shubham9672/Developers-Bank/compare).
                  
 ### Step#8: Pat your self on the back and wait for your pull request to be reviewed and merged.
 
