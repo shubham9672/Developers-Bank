@@ -18,4 +18,5 @@ jobs:
             If this is a 🐛 Bug Report, please provide screenshots and **minimum possible steps to reproduce your issue**, otherwise I can not help you.
             If this is a ❓ Question, please provide as much information as possible, including dataset images, logs, screenshots, and a public link if available.
 
-          pr-message: "👋 Hello @${{ github.actor }}, thank you for submitting a 🚀 PR! You are to making Developers-Bank even better."
+          pr-message: |
+            👋 Hello @${{ github.actor }}, thank you for submitting a 🚀 PR! You are to making Developers-Bank even better.
