@@ -53,38 +53,39 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
- String text="Press mic to start";
-bool islistening=false;
+ String text="Press mic to start"; // Intial text shown to user
+bool islistening=false; //to check mic is currently listen or not
   @override
   Widget build(BuildContext context) {
     return Scaffold(
 
       appBar: AppBar(
 actions: [Builder(builder: (context)=>IconButton(onPressed: ()async{
-  await FlutterClipboard.copy(text);
+  await FlutterClipboard.copy(text); //copy the all text
  final snackBar= SnackBar(content: Text("Copy to clipboard"));
-  ScaffoldMessenger.of(context).showSnackBar(snackBar);
+  ScaffoldMessenger.of(context).showSnackBar(snackBar); //snackbar shown at the bottom of screen
 }, icon: Icon(Icons.copy)))
   ],
       ),floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton:AvatarGlow(child: FloatingActionButton(
         onPressed:   (){
-        togglerecording();
+        togglerecording(); //button to on or off mic
       },child: Icon(islistening?Icons.mic:Icons.mic_none,size: 50,),),
-          animate: islistening, endRadius: 150,glowColor: Colors.green,showTwoGlows: true),
+          animate: islistening, // avtar glow effect when mic is listening
+          endRadius: 150,glowColor: Colors.green,showTwoGlows: true),
 
       body: SingleChildScrollView(reverse: true,
-          child:Text("$text")),
+          child:Text("$text")), // text converted from speech
 
 
     );
   }
-  Future togglerecording()=>Speechapi.togglerecording(onresult:  (text)=>setState(()=>this.text=text,),
+  Future togglerecording()=>Speechapi.togglerecording(onresult:  (text)=>setState(()=>this.text=text,), //change previous String with new speech text
   onlistening: (islistening){
     setState(()=>this.islistening=islistening);
- if(!islistening){
-   Future.delayed(Duration(seconds: 3),(){
-     Utils.scanText(text);
+ if(!islistening){ //check wthether the mic is on or off
+   Future.delayed(Duration(seconds: 3),(){ 
+     Utils.scanText(text); //scan the key word with in text
    });
 
  }
