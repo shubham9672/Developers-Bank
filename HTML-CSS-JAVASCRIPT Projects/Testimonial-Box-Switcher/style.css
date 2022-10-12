@@ -1,0 +1,118 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0.6rem;
+}
+
+.testimonial__container {
+    background-color: #00ADB5;
+    color: #FFFFFF;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 1.25rem auto;
+    padding: 3.1rem 5rem;
+    max-width: 768px;
+    position: relative;
+}
+
+.quote {
+    font-size: 28px;
+    position: absolute;
+    top: 70px;
+}
+
+.fa-quote-right {
+    left: 40px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.fa-quote-left {
+    right: 40px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.testimonial {
+    line-height: 25px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0.8rem 0;
+}
+
+.user .user__image {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+}
+
+.user .user__details {
+    margin-left: 10px;
+}
+
+.user .username {
+    margin: 0;
+}
+
+.user .role {
+    font-weight: normal;
+    margin: 0.6rem 0;
+}
+
+.progress__bar {
+    background-color: #FFFFFF;
+    height: 4px;
+    width: 100%;
+    animation: grow 10s linear infinite;
+    transform-origin: left;
+    -webkit-animation: grow 10s linear infinite;
+}
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonial__container {
+        padding: 20px 30px;
+    }
+
+    .testimonial{
+        margin-top: 25px;
+    }
+
+    .quote {
+        display: none;
+    }
+}
