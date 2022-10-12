@@ -1,8 +1,0 @@
-version: 1
-labels:
-  - label: "docs"
-    files:
-      - "docs/*"
-  - label: "flutter"
-    files:
-      - "flutter project/*"
