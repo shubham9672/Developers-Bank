@@ -134,11 +134,24 @@ nav{
     font-weight: 300;
 }
 
+.text-center1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.pic{
+    align-items: center;
+    text-align: center;
+}
+
 .bigTitle{
     position: absolute;
     z-index: 30;
     line-height: 4rem;
-    top: calc(50% - 2rem);
+    top: calc(50% - 7rem);
     width: 100%;
     text-align: center;
     font-size: 5rem;
