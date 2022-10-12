@@ -43,8 +43,8 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final colors=[Colors.orange,Colors.cyanAccent];
- final controlller=LiquidController();
- List<Color> color=[
+ final controlller=LiquidController(); //Liquid swipe controller declaration 
+ List<Color> color=[ //list of colors
    Colors.red,
    Colors.blue,
    Colors.green,
@@ -73,11 +73,15 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
      body:Container(color: Colors.grey,
         child: Stack(
-         children: [
-     LiquidSwipe(liquidController: controlller,enableSideReveal: true,
-        slideIconWidget: Icon(Icons.arrow_back_ios_new_rounded),onPageChangeCallback: (index){
-setState((){});
-         },waveType:WaveType.liquidReveal,pages: [
+         children: [//Adding liquid swipe widget
+     LiquidSwipe(liquidController: controlller, //controller use in animation dot widget to see the current page and also to change
+                 enableSideReveal: true, //set true to show Side reveal bar
+        slideIconWidget: Icon(Icons.arrow_back_ios_new_rounded)// set Side revael bar icon 
+                 ,onPageChangeCallback: (index){
+setState((){}); 
+         },
+          waveType:WaveType.liquidReveal, //type of liquid swipe animation
+                 pages: [//adding pages which show when we swipe
            Container(
            decoration: BoxDecoration(image: DecorationImage(image: AssetImage("assets/1.jpg"),fit:BoxFit.fill),
            )),
@@ -93,7 +97,7 @@ setState((){});
          bottom: 20,
 left: 110,
 
-child: AnimatedSmoothIndicator(
+child: AnimatedSmoothIndicator( //Animaion dot indiacator to see the progreess of liquid swipe
 
 curve: Curves.bounceInOut,
   activeIndex: controlller.currentPage,
