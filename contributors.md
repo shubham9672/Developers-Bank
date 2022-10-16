@@ -8,7 +8,9 @@
 - [Dhruv Gupta](https://github.com/MR-DHRUV)
 - [Bagusin](https://github.com/Bagusin)
 - [Palak Khandelwal](https://github.com/palaksv)
-
+- [Hamza Nawab](https://github.com/blazenn2)
+- [Utkarsh Rai](https://github.com/Ultimateutkarsh11)
+- [Aditya More](https://github.com/AdityaMore7000)
 
 
 

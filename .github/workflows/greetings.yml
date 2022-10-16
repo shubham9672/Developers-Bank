@@ -1,0 +1,22 @@
+name: Greetings
+
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: | 
+           👋 Hi @${{ github.actor }}, Thanks for using Developers-Bank! I appreciate your help and I’ll take care of this as soon as possible.
+            If this is a 🐛 Bug Report, please provide screenshots and **minimum possible steps to reproduce your issue**, otherwise I can not help you.
+            If this is a ❓ Question, please provide as much information as possible, including dataset images, logs, screenshots, and a public link if available.
+
+          pr-message: |
+            👋 Hello @${{ github.actor }}, thank you for submitting a 🚀 PR! You are to making Developers-Bank even better.
