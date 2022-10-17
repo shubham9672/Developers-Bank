@@ -6,7 +6,7 @@ labels:
   - label: "flutter"
     files:
       - "flutter_project/*"
-  - label: "HTML CSS JS"
+  - label: "HTML-CSS-JS"
     files:
       - "HTML-CSS-JAVASCRIPT Projects/.*"
   - label: "Python"
