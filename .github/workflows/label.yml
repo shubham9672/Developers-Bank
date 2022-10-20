@@ -17,6 +17,8 @@ jobs:
       pull-requests: write
 
     steps:
-    - uses: actions/labeler@v4
+    - uses: actions/labeler@v8
       with:
+        config_path: .github/labeler_config.yml
+      env:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
