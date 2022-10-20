@@ -1,7 +1,7 @@
 docs: 'docs/*'
 
-flutter: 'flutter_project/*'
+flutter: 'flutter_project/**/*'
 
-HTML-CSS-JS: 'HTML-CSS-JAVASCRIPT Projects/*'
+HTML-CSS-JS: 'HTML-CSS-JAVASCRIPT Projects/**/*'
 
-Python: 'Python Projects/*'
+Python: 'Python Projects/**/*'
