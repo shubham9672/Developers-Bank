@@ -1,9 +1,4 @@
-good: '*'
-docs: 
-  - docs/*
-flutter: 
-  - flutter_project/*
-HTML-CSS-JS: 
-  - HTML-CSS-JAVASCRIPT%20Projects/.*
-Python: 
-  - Python%20Projects/*
+docs: 'docs/*'
+flutter: 'flutter_project/*'
+HTML-CSS-JS: 'HTML-CSS-JAVASCRIPT Projects/*'
+Python: 'Python Projects/*'
