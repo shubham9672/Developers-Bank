@@ -8,6 +8,10 @@ public class MovieTicketBookingSystem {
         platform.executeCommand("CreateUser John");
         platform.executeCommand("CreateUser Alice");
         platform.executeCommand("CreateUser Bob");
+        platform.executeCommand("AddMovie Final-Destination");
+        platform.executeCommand("AddMovie Inception");
+        platform.executeCommand("AddMovie Avatar");
+        platform.executeCommand("ListMovie");
        
     }
 }
