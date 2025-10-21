@@ -12,6 +12,8 @@ public class MovieTicketBookingSystem {
         platform.executeCommand("AddMovie Inception");
         platform.executeCommand("AddMovie Avatar");
         platform.executeCommand("ListMovie");
+        platform.executeCommand("AddTheatre PVR 5 20 100");
+        platform.executeCommand("AddTheatre INOX 10 15 120");
        
     }
 }
