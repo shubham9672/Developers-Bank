@@ -1,14 +1,17 @@
 package com.example.services;
 
-import com.example.commands.Command;
-import com.example.commands.CreateUserCommand;
+import com.example.commands.*;
+import com.example.repo.MovieRepository;
 import com.example.repo.UserRepository;
+
 
 public class MovieTicketPlatformService {
     private UserRepository userRepository;
+    private MovieRepository movieRepository;
 
     public MovieTicketPlatformService() {
         this.userRepository = new UserRepository();
+        this.movieRepository = new MovieRepository();
     }
         
 
@@ -27,6 +30,17 @@ public class MovieTicketPlatformService {
                         return;
                     }
                     command = new CreateUserCommand(userRepository, parts[1]);
+                    break;
+                case "AddMovie":
+                    if (parts.length < 2) {
+                        System.out.println("Usage: AddMovie <movie_name>");
+                        return;
+                    }
+                    command = new AddMovieCommand(movieRepository, parts[1]);
+                    break;
+
+                case "ListMovie":
+                    command = new ListMoviesCommand(movieRepository);
                     break;
 
                 default:
