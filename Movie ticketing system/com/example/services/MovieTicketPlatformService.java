@@ -2,16 +2,19 @@ package com.example.services;
 
 import com.example.commands.*;
 import com.example.repo.MovieRepository;
+import com.example.repo.TheatreRepository;
 import com.example.repo.UserRepository;
 
 
 public class MovieTicketPlatformService {
     private UserRepository userRepository;
     private MovieRepository movieRepository;
+    private TheatreRepository theatreRepository;
 
     public MovieTicketPlatformService() {
         this.userRepository = new UserRepository();
         this.movieRepository = new MovieRepository();
+        this.theatreRepository = new TheatreRepository();
     }
         
 
@@ -41,6 +44,16 @@ public class MovieTicketPlatformService {
 
                 case "ListMovie":
                     command = new ListMoviesCommand(movieRepository);
+                    break;
+                case "AddTheatre":
+                    if (parts.length < 5) {
+                        System.out.println("Usage: AddTheatre <name> <normal_seats> <premium_seats> <base_price>");
+                        return;
+                    }
+                    command = new AddTheatreCommand(theatreRepository, parts[1],
+                            Integer.parseInt(parts[2]),
+                            Integer.parseInt(parts[3]),
+                            Double.parseDouble(parts[4]));
                     break;
 
                 default:
