@@ -16,6 +16,5 @@ public class MovieTicketBookingSystem {
         platform.executeCommand("AddTheatre INOX 10 15 120");
         platform.executeCommand("GenerateShows 1 1 3");
         platform.executeCommand("GenerateShows 2 1 2");
-       
     }
 }
