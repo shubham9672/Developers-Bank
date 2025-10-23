@@ -20,5 +20,7 @@ public class MovieTicketBookingSystem {
         platform.executeCommand("BookTicket 2 1 [3,4,5]");
         platform.executeCommand("ListUserBookings 1");
         platform.executeCommand("ListUserBookings 2");
+        platform.executeCommand("CancelBooking 1");
+        platform.executeCommand("ListUserBookings 1");
     }
 }
