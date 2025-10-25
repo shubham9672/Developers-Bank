@@ -8,6 +8,7 @@ public class MovieTicketBookingSystem {
         platform.executeCommand("CreateUser John");
         platform.executeCommand("CreateUser Alice");
         platform.executeCommand("CreateUser Bob");
+        platform.executeCommand("ListUsers");
         platform.executeCommand("AddMovie Final-Destination");
         platform.executeCommand("AddMovie Inception");
         platform.executeCommand("AddMovie Avatar");
@@ -25,5 +26,6 @@ public class MovieTicketBookingSystem {
         platform.executeCommand("CancelBooking 1");
         platform.executeCommand("ListUserBookings 1");
         platform.executeCommand("ListShows theatre 1");
+        System.out.println("\n=== End of Demo ===");
     }
 }
