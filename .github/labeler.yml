@@ -1,9 +1,0 @@
-docs: 'docs/*'
-
-flutter: 'flutter_project/**/*'
-
-HTML-CSS-JS: 'HTML-CSS-JAVASCRIPT Projects/**/*'
-
-Python: 'Python Projects/**/*'
-
-Java: 'Java Projects/**/*'
