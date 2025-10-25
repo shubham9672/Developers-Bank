@@ -116,6 +116,9 @@ public class MovieTicketPlatformService {
                     command = new ListShowsCommand(showRepository, movieRepository,
                             theatreRepository, parts[1], parts[2]);
                     break;
+                case "ListUsers":
+                    command = new ListUsersCommand(userRepository);
+                    break;
 
                 default:
                     System.out.println("Unknown command: " + parts[0]);
