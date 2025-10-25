@@ -8,6 +8,7 @@ public class AddMovieCommand implements Command {
     private MovieRepository movieRepository;
     private String movieName;
 
+
     public AddMovieCommand(MovieRepository movieRepository, String movieName) {
         this.movieRepository = movieRepository;
         this.movieName = movieName;
