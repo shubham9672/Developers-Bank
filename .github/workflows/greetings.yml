@@ -1,7 +1,11 @@
 name: Greetings
 
 
-on: [pull_request_target, issues]
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened, assigned]
 
 jobs:
   greeting:
