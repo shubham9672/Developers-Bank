@@ -108,7 +108,14 @@ public class MovieTicketPlatformService {
                     }
                     command = new CancelBookingCommand(bookingRepository, Integer.parseInt(parts[1]));
                     break;
-
+                case "ListShows":
+                    if (parts.length < 3) {
+                        System.out.println("Usage: ListShows <movie/theatre> <id/name>");
+                        return;
+                    }
+                    command = new ListShowsCommand(showRepository, movieRepository,
+                            theatreRepository, parts[1], parts[2]);
+                    break;
 
                 default:
                     System.out.println("Unknown command: " + parts[0]);
