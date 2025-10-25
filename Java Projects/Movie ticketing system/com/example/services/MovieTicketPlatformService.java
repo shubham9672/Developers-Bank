@@ -101,6 +101,13 @@ public class MovieTicketPlatformService {
                     command = new ListUserBookingsCommand(bookingRepository, userRepository,
                             Integer.parseInt(parts[1]));
                     break;
+                case "CancelBooking":
+                    if (parts.length < 2) {
+                        System.out.println("Usage: CancelBooking <booking_id>");
+                        return;
+                    }
+                    command = new CancelBookingCommand(bookingRepository, Integer.parseInt(parts[1]));
+                    break;
 
 
                 default:
